@@ -1,0 +1,5 @@
+<%= form_for @recipe, url: recipes_path do |f| %>
+  <%= f.label "name" %>
+  <%= f.text_field :name %>
+  <%= f.submit "Add To Cookbook" %>
+<% end %>
